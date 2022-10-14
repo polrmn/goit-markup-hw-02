@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;  
+    color: #212121;
+    background-color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    /* width: 1600px; */
+    height: 80px;
+    background-color: #FFF;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #212121;
+
+}
+a:hover, a:active {
+    color: #2196F3;
+}
+
+.logo {
+    margin: 24px 93px 25px 215px; 
+    /* width: 145px; */
+    height: 31px;   
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.web-word {
+    color: #2196F3;
+}
+
+.navigation {
+    display: flex;
+    margin: 32px 344px 32px 0px;
+    /* width: 281px; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.portfolio-link {
+    margin-left: 50px;
+}
+.contacts-link {
+    margin-left: 50px;
+}
+
+
+.contacts {
+    display: flex;
+    margin: 32px 215px 32px 0;
+    /* width: 307px; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.phone-number {
+    margin-left: 50px;
+}
+
+
+
