@@ -62,7 +62,7 @@ button {
     /* width: 281px; */
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .portfolio-link {
@@ -79,7 +79,7 @@ button {
     /* width: 307px; */
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -142,7 +142,7 @@ h1 {
     max-height: 98px;
 }
 
-.advantages-list: last-child {
+.advantages-list:last-child {
     margin-right: 0;
 }
 
@@ -187,7 +187,7 @@ margin: 0 215px;
 .work-images > li {
     margin-right: 30px;
 }
-.work-images: :last-child {
+.work-images:last-child {
     margin-right: 0;
 }
 
@@ -216,7 +216,7 @@ margin: 0 215px;
     margin-right: 30px;
 }
 
-.team-members: :last-child {
+.team-members:last-child {
     margin-right: 0;
 }
 
