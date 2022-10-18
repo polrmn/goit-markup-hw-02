@@ -35,6 +35,10 @@ a:hover, a:active, a:focus {
     color: #2196F3;
 }
 
+button {
+    border: none;
+}
+
 .logo {
     margin: 24px 93px 25px 215px; 
     /* width: 145px; */
@@ -274,3 +278,35 @@ footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
+
+/* PORTFOLIO  */
+
+.portfolio-body {
+    background-color: #FFF;
+    width: 1600px;
+    font-family: 'Roboto', 'Raleway', sans-serif;  
+    color: #212121;
+}
+
+.portfolio-main {
+    margin: 94px 215px;
+}
+
+/* FILTER  */
+.filter-list {
+    margin-left: 297px;
+}
+
+.filter-item {
+    margin-right: 8px;
+}
+
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
