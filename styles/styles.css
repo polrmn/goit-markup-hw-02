@@ -37,6 +37,7 @@ a:hover, a:active, a:focus {
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 .logo {
@@ -295,6 +296,7 @@ footer {
 /* FILTER  */
 .filter-list {
     margin-left: 297px;
+    margin-bottom: 50px;
 }
 
 .filter-item {
@@ -309,4 +311,43 @@ footer {
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
     border-radius: 4px;
+    height: 38px;
+    padding: 6px 22px;
+}
+
+.filter:hover,
+.filter:active,
+.filter:focus {
+    background-color: #2196F3;
+    color: #FFF;
+}
+
+.projects {
+display: inline-table;
+}
+
+.project-item {
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-color: #EEEEEE;
+}
+.project-item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
