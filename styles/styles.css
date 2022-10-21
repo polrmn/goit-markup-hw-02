@@ -1,6 +1,15 @@
+:root {
+    --brand-color-main: #fff;
+    --brand-color-first: #212121;
+    --barnd-color-secondary: #2F303A;
+    --brand-color-third: #F5F4FA;
+    --brand-color-text: #757575;
+    --brand-color-activity: #2196F3;
+}
+
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;  
-    color: #212121;
+    font-family: 'Roboto', sans-serif;  
+    color: var(--brand-color-first);
     background-color: #F5F5F5;
 }
 
@@ -10,34 +19,54 @@ body {
   box-sizing: border-box;
 }
 
+/* ul, li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+} */
+
+.navigation, .studio-link, .portfolio-link, .contacts-link, .contacts, .contacts-link, .mail-link, .tel-link,
+.advantages-list, .advantages-item,
+.work-images, .work-item,
+.team-members, .member,
+.address-list, .address-item,
+.filter-list, .filter-item,
+.projects, .project-item
+{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.logo, 
+.studio, 
+.portfolio, 
+.contact, 
+.mail, 
+.tel, 
+.logo-footer, 
+.map, 
+.tel-top, 
+.mail-top {
+    text-decoration: none;
+    color: var(--brand-color-first);
+}
+
+a:hover, a:active, a:focus {
+    color: var(--brand-color-activity);
+}
+
+.order-button, .filter {    
+    border: none;
+    cursor: pointer;
+}
+
  /* HEADER  */
 header {
     display: flex;
     width: 1600px; 
     height: 80px;
-    background-color: #FFF;
-}
-
-ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline-block;
-}
-a {
-    text-decoration: none;
-    color: #212121;
-
-}
-a:hover, a:active, a:focus {
-    color: #2196F3;
-}
-
-button {
-    border: none;
-    cursor: pointer;
+    background-color: var(--brand-color-main);
 }
 
 .logo {
@@ -53,7 +82,7 @@ button {
     color: #000000;
 }
 .web-word {
-    color: #2196F3;
+    color: var(--brand-color-activity);
 }
 
 .navigation {
@@ -81,17 +110,23 @@ button {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--brand-color-text);
 }
-.phone-number {
+
+.mail-top {
+    color: var(--brand-color-activity);
+}
+
+.tel-top {
     margin-left: 50px;
+    color: var(--brand-color-text);
 }
 
 /* ШАПКА */
 .button-field {
     width: 1600px;
     height: 600px; 
-    background-color: #2F303A;
+    background-color: var(--barnd-color-secondary);
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -105,7 +140,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--brand-color-main);
     margin: 0 auto;
 }
 
@@ -113,8 +148,8 @@ h1 {
     width: 216px;
     height: 50px;
     margin: 30px 692px 0 692px;
-    background-color: #2196F3;
-    color: #FFF;
+    background-color: var(--brand-color-activity);
+    color: var(--brand-color-main);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
@@ -129,7 +164,7 @@ h1 {
     width: 1600px;
     height: 286px;
     padding: 94px 215px;
-    background-color: #FFF;
+    background-color: var(--brand-color-main);
 }
 
 .advantages-list {
@@ -159,7 +194,7 @@ h1 {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-text);
 }
 
 /* ЧИМ МИ ЗАЙМАЄМОСЬ */
@@ -168,7 +203,7 @@ h1 {
     width: 1600px;
     height: 480px;
     /* margin: auto; */
-    background-color: #FFF;
+    background-color: var(--brand-color-main);
 }
 
 h2 {
@@ -197,7 +232,7 @@ margin: 0 215px;
 .team {
     width: 1600px;
     height: 648px;
-    background-color: #F5F4FA;
+    background-color: var(--brand-color-third);
     padding-top: 94px;
 }
 
@@ -207,7 +242,7 @@ margin: 0 215px;
 }
 
 .team-members > li {
-    background-color: #FFF;
+    background-color: var(--brand-color-main);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -233,7 +268,7 @@ margin: 0 215px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-text);
 }
 
 /* НИЖНІЙ КОЛОНТИТУЛ */
@@ -241,7 +276,7 @@ margin: 0 215px;
 footer {
     width: 1600px;
     height: 252px;
-    background-color: #2F303A;
+    background-color: var(--barnd-color-secondary);
     padding-top: 60px;
     padding-left: 215px;
 }
@@ -253,7 +288,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0.03em;
-    color: #FFF;
+    color: var(--brand-color-main);
 }
 
 .address-list {
@@ -269,7 +304,8 @@ footer {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--brand-color-main);
+    font-style: normal;
 }
 
 .tel , .mail {
@@ -277,16 +313,17 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
 
 /* PORTFOLIO  */
 
 .portfolio-body {
-    background-color: #FFF;
-    width: 1600px;
+    background-color: var(--brand-color-main);
+    /* width: 1600px; */
     font-family: 'Roboto', 'Raleway', sans-serif;  
-    color: #212121;
+    color: var(--brand-color-first);
 }
 
 .portfolio-main {
@@ -309,7 +346,7 @@ footer {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    background-color: #F5F4FA;
+    background-color: var(--brand-color-third);
     border-radius: 4px;
     height: 38px;
     padding: 6px 22px;
@@ -318,8 +355,8 @@ footer {
 .filter:hover,
 .filter:active,
 .filter:focus {
-    background-color: #2196F3;
-    color: #FFF;
+    background-color: var(--brand-color-activity);
+    color: var(--brand-color-main);
 }
 
 .projects {
@@ -333,9 +370,9 @@ display: inline-table;
     margin-right: 30px;
     border-color: #EEEEEE;
     border-width: 1px;
-    border-color: #EEEEEE;
     border-style: solid;
 }
+
 .project-item:nth-child(3n+3) {
     margin-right: 0;
 }
@@ -347,12 +384,17 @@ display: inline-table;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
     margin-left: 24px;
+    text-align: left;
 }
 
 .project-type {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-text);
     margin-left: 24px;
+}
+
+.blank {
+    height: 0;
 }
