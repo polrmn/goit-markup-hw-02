@@ -101,6 +101,9 @@ header {
     margin-left: 50px;
 }
 
+.current {
+    color: var(--brand-color-activity);
+}
 
 .contacts {
     display: flex;
@@ -113,9 +116,9 @@ header {
     color: var(--brand-color-text);
 }
 
-.mail-top {
+/* .mail-top {
     color: var(--brand-color-activity);
-}
+} */
 
 .tel-top {
     margin-left: 50px;
@@ -226,7 +229,6 @@ margin: 0 215px;
     margin-right: 0;
 }
 
-
 /* НАША КОМАНДА */
 
 .team {
@@ -321,7 +323,7 @@ footer {
 
 .portfolio-body {
     background-color: var(--brand-color-main);
-    /* width: 1600px; */
+    width: 1600px;
     font-family: 'Roboto', 'Raleway', sans-serif;  
     color: var(--brand-color-first);
 }
