@@ -62,7 +62,7 @@ a:hover, a:active, a:focus {
 }
 
  /* HEADER  */
-header {
+.header {
     display: flex;
     width: 1600px; 
     height: 80px;
@@ -134,7 +134,7 @@ header {
     padding-bottom: 200px;
 }
 
-h1 {
+.button-discription {
     width: 696px;
     height: 120px;
     font-weight: 900;
@@ -209,7 +209,8 @@ h1 {
     background-color: var(--brand-color-main);
 }
 
-h2 {
+.work-head,
+.team-head {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -275,7 +276,7 @@ margin: 0 215px;
 
 /* НИЖНІЙ КОЛОНТИТУЛ */
 
-footer {
+.footer {
     width: 1600px;
     height: 252px;
     background-color: var(--barnd-color-secondary);
@@ -333,6 +334,10 @@ footer {
 }
 
 /* FILTER  */
+.blank {
+    display: none;
+}
+
 .filter-list {
     margin-left: 297px;
     margin-bottom: 50px;
